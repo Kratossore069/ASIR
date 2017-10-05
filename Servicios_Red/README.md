@@ -36,3 +36,15 @@ En esta práctica vamos a monitorizar un servicio DHCP en una máquina Windows S
 - Crearemos un segundo ámbito cuya información sea complementaria con el anterior.
 
 ![3](./img/9.png)
+
+- En el paso anterior deberíamos insertar unas direcciones distintas por que nos pueden dar problemas. Aceptamos y creamos el segundo ámbito.
+
+![3](./img/10.png)
+
+- Como último paso, debemos crear un súper ámbito que una los dos ámbitos anteriores.
+
+![3](./img/11.png)
+
+- Aceptamos y ya tenemos nuestro súper ámbito.
+
+![3](./img/12.png)
