@@ -22,6 +22,8 @@ En este informe vamos a instalar y configurar un servicio DHCP en un sistema ope
 
 ![3](./img/3.png)
 
+![35](./img/35.png)
+
 - Existe la posibilidad de que, al intentar encender el servicio, nos de un problema. `sudo service isc-dhcp-server status`
 
 ![6](./img/6.png)
