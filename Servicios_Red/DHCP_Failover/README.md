@@ -13,3 +13,9 @@ Vamos a crear unas máquinas virtuales con **Windows Server 2012**. El objetivo 
 `Botón derecho -> Conmutación de errores`
 
 ![](./img/3.png)
+
+Es necesario tener **dos servidores** a partir de este paso debido a que nos pude salir el siguiente error.
+
+![](./img/5.png)
+
+La misión de la práctica es observar cómo cuando una máquina se enciende, se apaga la otra. El ámbito que había en la apagada se traspasará a la que está encendida.
