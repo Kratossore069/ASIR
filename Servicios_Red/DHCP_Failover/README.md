@@ -2,11 +2,13 @@
 
 Actividad Grupal
 
-Víctor Gabriel Carvajal Aróstegui
+*Víctor Gabriel Carvajal Aróstegui*
 
-Carlos Javier Oliva Domínguez
+*Carlos Javier Oliva Domínguez*
 
-Miqueas García González 
+*Miqueas García González*
+
+**Práctica**
 
 
 Vamos a crear unas máquinas virtuales con **Windows Server 2012**. El objetivo de esta práctica es que la información se pase de una máquina a otra de modo que, si una máquina se cuelga, consiga la información de otra máquina.
