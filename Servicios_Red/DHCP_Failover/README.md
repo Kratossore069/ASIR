@@ -18,4 +18,38 @@ Es necesario tener **dos servidores** a partir de este paso debido a que nos pud
 
 ![](./img/5.png)
 
-La misión de la práctica es observar cómo cuando una máquina se enciende, se apaga la otra. El ámbito que había en la apagada se traspasará a la que está encendida.
+Para ser capaces de hacer esta práctica, los dos servidores deben estar en **red interna** y el servidor principal debe tener como servidor asociado **la ip del secundario** mediante la opción **conmutación por error**, como aparece en la siguiente imagen.
+
+![](./img/6.png)
+
+En el siguiente paso haremos la configuración por conmutación por error. Podremos configurar parámetros como `nombre de la relación`, `modo de espera` (en nuestro caso) y lo cambiamos a modo activo e insertamos una contraseña en `secreto compartido`.
+
+![](./img/7.png)
+
+Finalizamos la configuración con los siguientes detalles.
+
+![](./img/8.png)
+
+Ahora finalizaremos la configuración y comprobaremos que las configuraciones se han aplicado correctamente.
+
+![](./img/9.png)
+
+Ahora volvemos a nuestro ámbito principal y pulsamos en botón derecho en `replicar ámbito`. Esto hará que en el otro servidor aparezca el ámbito.
+
+![](./img/10.png)
+
+Configuración recibida en el servidor 2 por el servidor 1.
+
+![](./img/11.png)
+
+Como podemos comprobar, se ha replicado la configuración del ámbito del servidor 1 al servidor 2.
+
+![](./img/12.png)
+
+Encendemos nuestra máquina cliente en **red interna** y vemos que el dominio es el proporcionado por el servidor DHCP.
+
+![](./img/13.png)
+
+También podemos ver la correcta recepción de la dirección IPv4 por parte del servidor DHCP.
+
+![](./img/14.png)
