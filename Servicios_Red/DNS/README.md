@@ -35,3 +35,7 @@ Ahora crearemos una nueva zona para que el cliente encuentre al servidor a parti
 Una vez finalizada toda la instalación nos quedará nuestra zona como a continuación.
 
 ![](./img/13.png)
+
+Usamos el comando `nslookup` para averiguar nuestro dominio.
+
+![](./img/14.png)
