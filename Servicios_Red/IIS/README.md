@@ -49,3 +49,7 @@ Ahora procederemos a crear un subdominio.
 ![](./img/14.png)
 
 ![](./img/15.png)
+
+Una vez creado el subdominio el último paso será crear una directiva crear una directiva de permisos para que todos los usuarios permitidos por el W12 puedan acceder a nuesstro sitio web.
+
+![](./img/16.png)
