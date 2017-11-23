@@ -59,3 +59,15 @@
 ![](./img/21.png)
 
 ![](./img/22.png)
+
+* Añadimos grupo de Administradores y de Empleados.
+
+![](./img/23.png)
+
+![](./img/24.png)
+
+*Hacemos los mismo para el grupo de Empleados*
+
+* Insertamos en el grupo **común** los usuarios correspondientes.
+
+ 
