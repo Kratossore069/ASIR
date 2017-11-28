@@ -99,3 +99,31 @@ Una vez descargado debemos crear un nuevo sitio específico para PHPMyAdmin.
 *Copiamos y pegamos el fichero de phpmyadmin en esta carpeta.*
 
 ![](./img/29.png)
+
+**Instalación de FTP FileZilla**
+
+Vamos a nuestro servidor e instalamos el servicio.
+
+![](./img/30.png)
+
+![](./img/31.png)
+
+![](./img/32.png)
+
+*Una vez instalado creamos un usuario y le damos permisos.*
+
+![](./img/33.png)
+
+FALTAN COSAS
+
+**Volvemos a la máquina cliente de Windows 7**
+
+*Comprobamos el acceso a phpmyadmin.miEmpresa.com*
+
+*Descargamos CMS Drupal*
+
+![](./img/34.png)
+
+![](./img/35.png)
+
+FALTAN MÁS COSAS
