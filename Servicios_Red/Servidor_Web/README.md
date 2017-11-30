@@ -114,7 +114,11 @@ Vamos a nuestro servidor e instalamos el servicio.
 
 ![](./img/33.png)
 
-FALTAN COSAS
+![](./img/331.png)
+
+![](./img/332.png)
+
+![](./img/333.png)
 
 **Volvemos a la máquina cliente de Windows 7**
 
@@ -125,5 +129,3 @@ FALTAN COSAS
 ![](./img/34.png)
 
 ![](./img/35.png)
-
-FALTAN MÁS COSAS
