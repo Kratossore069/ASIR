@@ -1,5 +1,9 @@
 # Creación de servidor web.
 
+**Víctor Gabriel Carvajal Aróstegui**
+
+**Miqueas García González**
+
 En nuestra máquina virtual **Windows 2012 Server** vamos a instalar los elementos necesarios para hacer de ella un servicio de hosting hecho a mano.
 
 php 5.3.9 nts x86.msi
@@ -119,6 +123,12 @@ Vamos a nuestro servidor e instalamos el servicio.
 ![](./img/332.png)
 
 ![](./img/333.png)
+
+*Ahora debemos crear un nuevo registro DNS para acceder a ftp.servidor.com*
+
+![](./img/36.png)
+
+![](./img/37.png)
 
 **Volvemos a la máquina cliente de Windows 7**
 
