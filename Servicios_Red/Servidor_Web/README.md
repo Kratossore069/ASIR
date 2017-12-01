@@ -132,7 +132,9 @@ Vamos a nuestro servidor e instalamos el servicio.
 
 **Volvemos a la máquina cliente de Windows 7**
 
-*Comprobamos el acceso a phpmyadmin.miEmpresa.com*
+*Comprobamos el acceso a phpmyadmin.servidor.com. Hay que tener en cuenta que las versiones de PHP y de phpmyadmin deben ser compatibles, si no, no aparecerá la siguiente ventana.*
+
+![](./img/38.png)
 
 *Descargamos CMS Drupal*
 
