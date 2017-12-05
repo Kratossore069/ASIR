@@ -23,8 +23,10 @@ Vamos a descargar phpMyAdmin desde la web en su última versión. Lo ponemos en 
 
 ![](./img/www2.png)
 
-Luego nos metemos en: http://localhost/phpmyadmin/scripts/setup.php y aparecerá una web para configurarlo.
+Luego nos metemos en: http://localhost/phpmyadmin/setup/index.php y aparecerá una web para configurarlo.
 
 ![](./img/www3.png)
 
 Le damos a Add, escribimos la contraseña de mysql y también un usuario y contraseña para phpmyadmin. Añadimos y le damos a Save.
+
+![](./img/www4.png)
