@@ -6,7 +6,75 @@
 
 Procederemos a instalar el FTP con IIS.
 
+Vamos a `Agregar roles y características`.
 
+![](./img/a.png)
+
+![](./img/b.png)
+
+Después de instalarlo, vamos a IIS y seguimos estos pasos.
+
+![](./img/c.png)
+
+![](./img/d.png)
+
+![](./img/e.png)
+
+*En el paso siguiente hay que estar seguro de que existe la configuración correcta en el DNS.*
+
+![](./img/f.png)
+
+En la siguiente imagen se tilda la opción `Básica` por que interesa que los usuarios se conecten con su usuario y contraseña y no de manera anónima.
+
+![](./img/g.png)
+
+Ahora vamos a **configurar los valores predeterminados de FTP**.
+
+![](./img/h.png)
+
+En el panel de `Acciones` pulsamos en `Establecer valores predeterminados`.
+
+![](./img/i.png)
+
+Establecemos un usuario para conectarnos.
+
+![](./img/j.png)
+
+![](./img/k.png)
+
+![](./img/l.png)
+
+Ahora vamos a **configurar la compatibilidad con el firewall de FTP**. Para ello, volvemos al IIS.
+
+![](./img/m.png)
+
+![](./img/n.png)
+
+Accedemos a `Compatibilidad con el firewall`.
+
+Usamos el intervalo 0-0 para usar los puertos predeterminados y la IP del firewall externo de Windows.
+
+![](./img/ñ.png)
+
+#### Configuramos el aislamiento de usuario.
+
+Volvemos al IIS. Configuramos los usuarios.
+
+![](./img/o.png)
+
+#### Configurar las opciones de exploración de directorios.
+
+`Filtrado de solicitudes`.
+
+![](./img/p.png)
+
+![](./img/registro1.png)
+
+![](./img/registro2.png)
+
+![](./img/mensajes1.png)
+
+![](./img/mensajes2.png)
 
 ## Linux - MV UbuntuServer
 
