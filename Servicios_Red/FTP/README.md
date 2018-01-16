@@ -68,11 +68,19 @@ Volvemos al IIS. Configuramos los usuarios.
 
 ![](./img/p.png)
 
+#### Configurar el registro FTP.
+
+`Registro FTP.`
+
 ![](./img/registro1.png)
 
 ![](./img/registro2.png)
 
-![](./img/mensajes1.png)
+#### Configurar los mensajes de FTP.
+
+`Mensajes de FTP.`
+
+![](./img/mensajes.png)
 
 ![](./img/mensajes2.png)
 
