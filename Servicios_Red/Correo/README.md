@@ -67,3 +67,79 @@ Probaremos a enviar un mensaje a ver si funcionan todas nuestras configuraciones
 Y vemos que el mensaje llega.
 
 ![](./img/20.png)
+
+# hMailServer
+
+En esta práctica vamos a instalar y configurar el servicio *hMailServer*.
+
+Máquinas virtuales - **Windows12Server**
+
+## Configuración inicial.
+
+Debemos instalar el servidor DNS primero.
+
+![](./img/mail1.png)
+
+Creamos dos zonas de búsqueda directa para el correo.
+
+![](./img/mail2.png)
+
+Las dos tienen que apuntar al propio servidor.
+
+![](./img/mail3.png)
+
+## hMailServer
+
+Hecho esto, vamos a descargar de la página oficial https://www.hmailserver.com/ el servicio de correo.
+
+![](./img/mail4.png)
+
+![](./img/mail5.png)
+
+En este paso nos crea una pequeña base de datos que viene predeterminada.
+
+![](./img/mail6.png)
+
+Una contraseña para el servidor. La nuestra es del 1 al 6.
+
+![](./img/mail7.png)
+
+----------------------------
+
+#### Posibles errores
+
+![](./img/mail8.png)
+
+En este caso primero instalamos esa característica.
+
+![](./img/mail9.png)
+
+Si no se consigue solventar así, desde agregar roles y características.
+
+![](./img/mail10.png)
+
+----------------------------
+
+Una vez solventados los errores que puedan surgir, nos aparecerá una imagen como esta.
+
+![](./img/mail11.png)
+
+-----------------------------
+
+**Nuevo error**
+
+Si sale una pantalla de error debemos ir a `Archivos de programa x86` y eliminar la carpeta y desinstalar el programa. Hecho esto aparecerá correctamente esta pantalla.
+
+![](./img/mail13.png)
+
+------------------------------
+
+## Configurando el hMailServer
+
+Creamos un dominio.
+
+![](./img/mail14.png)
+
+Creamos un usuario que se conecte a ese dominio.
+
+![](./img/mail15.png)
