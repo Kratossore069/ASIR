@@ -88,6 +88,10 @@ Las dos tienen que apuntar al propio servidor.
 
 ![](./img/mail3.png)
 
+![](./img/tuto1.png)
+
+![](./img/tuto2.png)
+
 ## hMailServer
 
 Hecho esto, vamos a descargar de la página oficial https://www.hmailserver.com/ el servicio de correo.
@@ -102,7 +106,27 @@ En este paso nos crea una pequeña base de datos que viene predeterminada.
 
 Una contraseña para el servidor. La nuestra es del 1 al 6.
 
-![](./img/mail7.png)
+Luego vamos a la configuración de hmail y establecemos los protocolos.
+
+![](./img/tuto3.png)
+
+Configuramos SMTP.
+
+![](./img/tuto4.png)
+
+Necesitamos establecer las direcciones de IP.
+
+![](./img/tuto5.png)
+
+Viene bien desactivar el firewall para que funcione.
+
+![](./img/tuto6.png)
+
+Hecho todo lo anterior, descargamos el programa `Thunderbird` que es una mensajería e introducimos el usuario que hemos creado.
+
+![](./img/tuto7.png)
+
+
 
 ----------------------------
 
@@ -128,7 +152,7 @@ Una vez solventados los errores que puedan surgir, nos aparecerá una imagen com
 
 **Nuevo error**
 
-Si sale una pantalla de error debemos ir a `Archivos de programa x86` y eliminar la carpeta y desinstalar el programa. Hecho esto aparecerá correctamente esta pantalla.
+Si sale una pantalla de error debemos ir a `Archivos de programa x86` y eliminar la carpeta, desinstalar el programa para volverlo a instalar. Hecho esto aparecerá correctamente esta pantalla.
 
 ![](./img/mail13.png)
 
@@ -143,3 +167,21 @@ Creamos un dominio.
 Creamos un usuario que se conecte a ese dominio.
 
 ![](./img/mail15.png)
+
+## Instalando el servicio de correo
+
+Para hacer uso de nuestro correo debemos tener un programa de mensajería. En nuestro caso será `Opera mail`.
+
+![](./img/o1.png)
+
+Agregamos la dirección de correo de nuestro hMailServer.
+
+![](./img/o2.png)
+
+Y ya tenemos nuestro correo.
+
+![](./img/o3.png)
+
+Probemos a mandar un correo.
+
+![](./img/o4.png)
