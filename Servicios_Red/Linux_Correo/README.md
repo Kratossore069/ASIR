@@ -2,48 +2,86 @@
 
 Vamos a proceder a crear un servidor de correo como hicimos en Windows pero esta vez en Linux.
 
-Máquinas a usar: **UbuntuServer**
+Máquinas a usar: **UbuntuCliente**
 
-## Instalar el SMTP.
+## Servicio de correo electrónico junto con SquirrelMail.
 
-Vamos a utilizar la herramienta `Postfix`.
+Primero debemos instalar el servicio apache para nuestra práctica.
 
-![](./img/0.png)
+![](./img/8.png)
 
-Nos aparecerá una pantalla de configuración. Utilizamos la opción **Sitio de Internet** ya que necesitamos que el correo use SMTP.
+Ahora tenemos que instalar el servidor DNS para luego configurarlo.
 
-![](./img/1.png)
+![](./img/9.png)
 
-Creamos dominio.
+Configuramos el DNS.
 
-![](./img/2.png)
+![](./img/10.png)
 
-Comprobamos el servicio SMTP activo.
+Debemos crear un archivo para nuestro proyecto con el nombre dado anteriormente.
 
-![](./img/3.png)
+![](./img/11.png)
 
-**FALTA PRUEBA DE ENVÍO**
+Insertamos valores en este archivo.
 
-## Servicio de correo Evolution.
+![](./img/12.png)
 
-Ahora instalaremos un cliente de correo. En nuestro caso el `Evolution`.
+Reiniciamos el demonio para efectuar los cambios.
 
-![](./img/4.png)
+![](./img/13.png)
 
-Listo. Ahora crearemos nuevas entradas asociadas a la IP del servidor para establecer conexión.
+Ahora necesitamos un servicio de correo. *sudo apt-get install postfix* Y lo tomamos como **Sitio de Internet**. Además, le ponemos el nombre de nuestra página de correo.
 
-![](./img/5.png)
+![](./img/14.png)
 
-Ahora debemos crear usuarios en Evolution.
+Configuramos el siguiente archivo en la siguiente ruta para nuestro Postfix.
 
-**FALTA CREAR CUENTAS Y ENVIAR CORREOS**
+![](./img/15.png)
 
-## SquirrelMail.
+Reiniciamos el demonio de Postfix.
 
-Instalar el servicio IMAP.
+![](./img/16.png)
 
-![](./img/6.png)
+Procedemos a instalar un servidor de correo electrónico o mail. *sudo apt-get install courier-pop*. En la siguiente ventana le decimos que *No*.
 
-Visualizamos.
+![](./img/17.png)
 
-![](./img/7.png)
+Instalamos el courier-imap.
+
+![](./img/18.png)
+
+Ahora debemos instalar un mailx para enviar y recibir correo electrónico mediante la línea de comandos.
+
+![](./img/19.png)
+
+Instalamos una aplicación webmail como SquirrelMail.
+
+![](./img/20.png)
+
+Ahora lo configuramos yendo a **sudo squirrelmail-configure**. Nos saldrá una pantalla en la que debemos escribir **D e Intro** para avanzar y nos saldrá esta paǵina.
+
+![](./img/21.png)
+
+Escribimos **courier**.
+
+![](./img/22.png)
+
+Pulsamos **2 e Intro.**
+
+![](./img/23.png)
+
+Pulsamos **1 e Intro** dos veces e insertamos nuestro dominio de correo. Hecho esto pulsamos **Q** y **Enter** junto con **Y** para salvar los cambios.
+
+![](./img/24.png)
+
+Hacemos un enlace simbólico.
+
+![](./img/25.png)
+
+Reiniciamos el demonio.
+
+![](./img/26.png)
+
+Ahora accedemos a la url **www.correoweb.com/webmail** y ya tenemos nuestro correo instalado.
+
+Y ya tenemos todo listo para enviar y recibir correos.
